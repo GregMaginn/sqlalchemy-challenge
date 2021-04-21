@@ -22,8 +22,8 @@ def home():
            f"/api/v1.0/precipitation......"
            f"/api/v1.0/stations......"
            f"/api/v1.0/tobs......"
-           f"/api/v1.0/<start>...... ENTER DATE IN YYYY-MM-DD FORM"
-           f"/api/v1.0/<start>/<end>...... ENTER DATE IN YYYY-MM-DD FORM"
+           f"/api/v1.0/start...... ENTER DATE IN YYYY-MM-DD FORM"
+           f"/api/v1.0/start/end...... ENTER DATE IN YYYY-MM-DD FORM"
           )
 
 @app.route("/api/v1.0/precipitation")
